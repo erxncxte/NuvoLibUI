@@ -100,14 +100,31 @@ body {
     border-radius: 8px;
 }
 
-.filters p {
+.A-Z {
     padding: 3px;
     font-size: 15px;
+    background-color: #A5A5A5;
+    width: 4%;
+    border-radius: 8px;
+    border: none;
 }
 
-.filters label {
+.A-Z select {
+    background: transparent;
+    border: none;
+}
+
+.Date {
+    padding: 3px;
+    font-size: 15px;
     background-color: #A5A5A5;
+    width: 10%;
     border-radius: 8px;
+    border: none;
+}
+
+.Date select {
+    background: transparent;
     border: none;
 }
 
