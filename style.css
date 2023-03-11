@@ -85,7 +85,7 @@ body {
     margin-top: 8px;
 }
 
-.results {
+.results-filters {
     margin-top: 3.2%;
     background-color:#B4AFAF;
     color: black;
@@ -126,6 +126,18 @@ body {
 .Date select {
     background: transparent;
     border: none;
+}
+
+.result {
+    background-color: #d8d8d8;
+    border-radius: 8px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    margin: 0.05%;
+}
+
+.edit {
+    float: right;
 }
 
 .sidenav {

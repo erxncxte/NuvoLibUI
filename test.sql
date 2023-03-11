@@ -22,6 +22,8 @@
    approved_date date
  );
 
+ADD DATE ADDEDDDD
+
 INSERT INTO Parts (part_name, part_number, category, description, footprint_path, footprint_ref, library_path, library_ref, part_value, footprint, manufacturer_1, manufacturer_1_part_number, supplier_1, supplier_1_part_number, link_1, link_1_description, comments, design_engineer, design_date, approver, approved_date) values (
     "Test Part",
     1,
