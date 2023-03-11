@@ -45,15 +45,26 @@
             <!-- Logo -->
             <img src="logo.png" alt="Nuvotion Logo" width="99" height="90">
             <p class="title">Nuvotion Altium Library</p>
-            <p>Currently showing:</p>
         </div>
 
         <!-- Search Bar -->
-        <div class="search">
-            <form>
-            <input type="text" placeholder="Search..">
-            <button type="submit"><i class="fa fa-search"></i></button>
+        <div class="wrapper">
+            <p>Currently showing:</p>
+            <div>
+                <button class="add">
+                    <!-- Add Part Button -->
+                    <img src="add.png">
+                    Add Part
+                </button>
+            </div>
+            <div class="search">
+            <form onsubmit="event.preventDefault();" role="search">
+            <input type="search" placeholder="Search..." autofocus required />
+            <button type="submit">
+                <img src="search.png">
+            </button>
             </form>
+            </div>
         </div>
 
         <div class="results">

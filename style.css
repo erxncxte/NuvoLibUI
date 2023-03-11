@@ -8,26 +8,85 @@ body {
     background-color: black;
     max-width: 100%;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .main {
     color: white;
-    position: relative;
-    left: 200px;
+    position: sticky;
+    top: 6%;
+    left: 11%;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.main .img {
+    display: block;
+    float: left;
 }
 
 .main .title {
     font-size: 30px;
-    float: left;
+    display: block;
+    float: right;
+    margin-right: 70%;
+}
+
+.wrapper {
+    float: right;
+}
+
+.wrapper p {
+    color: white;
+    left: 70%;
+}
+
+.add {
+    background: #d8d8d8;
+    border-radius: 12px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.add img {
+    height: 12px;
 }
 
 .search {
     float: right;
-    border-radius: 8px;
+    outline: 0;
+    display: flex;
+    min-width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #d8d8d8;
+}
+
+.search input {
+    background: transparent;
     border: none;
+    outline: none;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+.search button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.search button img {
+    height: 25px;
+    margin-top: 8px;
 }
 
 .results {
+    margin-top: 3.2%;
     background-color:#B4AFAF;
     color: black;
     border-radius: 8px;
@@ -57,7 +116,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 160px;
+    width: 8.3%;
     height: 100%;
     background-color: #525252;
     text-align: center;
@@ -68,7 +127,7 @@ body {
 
 .sidenav p {
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 60%;
     margin-bottom: 10px;
 }
 
@@ -89,6 +148,6 @@ body {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 160px;
+    width: 8.3%;
     text-align: center;
 }
